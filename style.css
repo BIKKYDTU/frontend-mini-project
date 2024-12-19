@@ -1,0 +1,126 @@
+ *{
+    box-sizing:border-box ;
+ }
+ 
+ body{
+    background-color: #02070a;
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    color: white;
+}
+
+main{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.circle{
+    border-radius: 100%;
+    position: absolute;
+}
+
+.circle-1{
+    height: 120px;
+    width: 120px;
+    background: radial-gradient(63.62% 63.62% at 50% 50%, #FF00C7 0%, #BD95FF 0.01%, #A661FF 32.29%, #6100FF 98.59%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    ;
+    top: -50px;
+    left: -50px;
+}
+
+.circle-2{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(67.47% 67.47% at 50% 50%, #FED0FF 0%, #7F00FF 100%);
+    top: -50px;
+    right: -50px;
+}
+
+.circle-3{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(67.47% 67.47% at 50% 50%, #FED0FF 0%, #7F00FF 100%);
+    bottom: -100px;
+    left: -100px;
+}
+
+.card-container{
+    position:relative;
+
+}
+
+.card{ 
+    max-width: 300px;
+    background-color: rgba(96, 241, 132, 0.696);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 18px;
+
+}
+
+.card-image{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.card-text{
+    padding: 16px;
+}
+
+.card-content {
+    border: 0.74px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.tag-hert-container{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.tag{
+    color: rgb(8, 4, 0);
+border-radius: 5px;
+background-color: #FF00C7;
+padding: 2px 8px;
+
+}
+
+.card-title{
+    font-size: 18px;
+    color: #02070a;
+
+    
+}
+.card-subtitle{
+    font-size: 12px;
+    font-weight: 500px;
+}
+
+.star-rating{
+    display:flex;
+    align-items: center;
+}
+
+.rating-value{
+    font-size: 14px;
+    font-style: normal;
+}
+
+.card-button{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+    border-top: 1px solid ;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+}
